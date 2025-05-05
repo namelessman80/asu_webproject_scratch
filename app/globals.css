@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-rgb: 255, 255, 255;
+  --maroon-700: 139, 29, 65;
+  --maroon-800: 120, 24, 55;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+}
+
+.bg-maroon-700 {
+  background-color: rgb(var(--maroon-700));
+}
+
+.bg-maroon-800 {
+  background-color: rgb(var(--maroon-800));
+}
+
+.text-maroon-700 {
+  color: rgb(var(--maroon-700));
+}
+
+.hover\:bg-maroon-800:hover {
+  background-color: rgb(var(--maroon-800));
+}

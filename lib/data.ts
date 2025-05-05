@@ -1,0 +1,58 @@
+import type { Provider } from "./types"
+
+export const providers: Provider[] = [
+  {
+    id: "1",
+    name: "ASU Counseling Services",
+    address: "1100 E University Dr, Tempe, Arizona 85281",
+    services: ["Individual Therapy", "Group Therapy", "Crisis Intervention"],
+    insurance: ["Aetna", "Blue Cross Blue Shield", "Cigna"],
+    languages: ["English", "Spanish"],
+    phone: "(480) 965-6146",
+  },
+  {
+    id: "2",
+    name: "Phoenix Behavioral Health Center",
+    address: "2500 N 44th St, Phoenix, Arizona 85008",
+    services: ["Psychiatry", "Substance Abuse Treatment", "Trauma Care"],
+    insurance: ["Medicare", "Medicaid", "UnitedHealthcare"],
+    languages: ["English", "Spanish", "Mandarin"],
+    phone: "(602) 555-1234",
+  },
+  {
+    id: "3",
+    name: "Scottsdale Mental Wellness",
+    address: "7320 E Camelback Rd, Scottsdale, Arizona 85251",
+    services: ["Family Therapy", "Depression Treatment", "Anxiety Treatment"],
+    insurance: ["Aetna", "Cigna", "Humana"],
+    languages: ["English", "French"],
+    phone: "(480) 555-5678",
+  },
+  {
+    id: "4",
+    name: "Mesa Psychological Services",
+    address: "1550 S Alma School Rd, Mesa, Arizona 85210",
+    services: ["Trauma Care", "Child Psychology", "Cognitive Behavioral Therapy"],
+    insurance: ["Blue Cross Blue Shield", "UnitedHealthcare", "Tricare"],
+    languages: ["English", "Spanish"],
+    phone: "(480) 555-9012",
+  },
+  {
+    id: "5",
+    name: "Chandler Family Counseling",
+    address: "2680 S Val Vista Dr, Chandler, Arizona 85286",
+    services: ["Child Psychology", "Marriage Counseling", "Grief Counseling"],
+    insurance: ["Aetna", "Cigna", "Medicaid"],
+    languages: ["English", "Spanish"],
+    phone: "(480) 555-3456",
+  },
+  {
+    id: "6",
+    name: "Tempe Wellness Center",
+    address: "1050 W Broadway Rd, Tempe, Arizona 85282",
+    services: ["Mindfulness Therapy", "Stress Management", "Depression Treatment"],
+    insurance: ["Blue Cross Blue Shield", "Medicare", "Humana"],
+    languages: ["English", "Spanish", "Arabic"],
+    phone: "(480) 555-7890",
+  },
+]
